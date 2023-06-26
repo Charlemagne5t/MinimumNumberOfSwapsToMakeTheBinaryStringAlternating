@@ -20,4 +20,22 @@ public class SolutionTest {
         Assert.assertEquals(expected, actual);
     }
 
+    @Test
+    public void minSwapsTest3(){
+        String s = "1110";
+        int expected = -1;
+        int actual = new Solution().minSwaps(s);
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void minSwapsTest4(){
+        String s = "100";
+        int expected = 1;
+        int actual = new Solution().minSwaps(s);
+
+        Assert.assertEquals(expected, actual);
+    }
+
 }
